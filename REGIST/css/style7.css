@@ -1,0 +1,70 @@
+.request input {
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+
+
+
+/*kjjjjjjjj*/
+.content {
+    display: flex;
+    flex-direction: column;  /* Ensure children are stacked vertically */
+    align-items: center;     /* Center the children horizontally */
+    justify-content: center; /* Center the children vertically */
+    height: 100vh;           /* Ensure full viewport height for centering */
+  }
+  
+  .content h2 {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+.request {
+    width: 50%;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: rgba(0,0,0,0.2);
+    margin-top: 70px;
+
+}
+
+.request label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 35px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.request input {
+    padding: 15px 25px;
+    width: 450px;
+    border-radius: 10px;
+    margin-left: 55px;
+    margin-bottom: 15px;
+}
+
+.request select {
+    margin-left: 32px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    width: 500px;
+    margin-left: 55px;
+    margin-bottom: 15px;
+}
+
+.request1 {
+    background-color: blue;
+    margin-left: 55px;
+    border-radius: 25px;
+    border: none;
+    width: 500px;
+    font-size: 13px;
+    color: #fff;
+    margin-bottom: 25px;
+    margin-top: -10px;
+}

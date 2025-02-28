@@ -1,0 +1,76 @@
+/* General Form Styling */
+form {
+    width: 900px;
+    background: #ffffff;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    margin: 50px auto;
+    border: 1px solid #ddd;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    color: #333;
+}
+
+/* Input Fields & Select */
+input, select {
+    width: 100%;  /* Ensures full width */
+    height: 44px; /* Match height */
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+    background: #fdfdfd;
+    box-sizing: border-box; /* Ensures consistent width */
+}
+
+/* Fix for Select Elements */
+select {
+    padding-right: 35px; /* Adjust for dropdown arrow */
+    background: #fdfdfd url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="black" d="M7 10l5 5 5-5z"/></svg>') no-repeat right 10px center;
+    background-size: 15px;
+    appearance: none;
+}
+
+/* Input Focus Effect */
+input:focus, select:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.5);
+}
+
+/* Submit Button */
+button.request1 {
+    width: 100%;
+    background: #28a745;
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+/* Hover Effect for Submit Button */
+button.request1:hover {
+    background: #218838;
+    transform: scale(1.03);
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    form {
+        width: 90%;
+        padding: 40px;
+    }
+}
